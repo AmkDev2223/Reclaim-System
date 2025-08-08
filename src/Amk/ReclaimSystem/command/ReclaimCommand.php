@@ -34,7 +34,7 @@ class ReclaimCommand extends Command {
     $result = $rm->giveReclaim($sender);
 
     if ($result === false) {
-    $sender->sendMessage("There is no items for the reclaim")
+    $sender->sendMessage("There is no items for the reclaim");
     } elseif (is_string($result)) {
       $cooldownLeft = $rm->getCooldownRemaining($sender, $result);
       if ($cooldownLeft > 0) {
