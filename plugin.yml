@@ -1,0 +1,11 @@
+name: Reclaim
+main: Amk\ReclaimSystem\Main
+version: 0.1
+api: 5.0.0
+author: AmkDev2223
+
+permissions:
+  reclaim.command.permission:
+    default: op
+  reclaim.admin.command.permission:
+    default: op
