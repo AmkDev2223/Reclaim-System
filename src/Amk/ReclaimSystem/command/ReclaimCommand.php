@@ -179,7 +179,7 @@ class ReclaimCommand extends Command {
                     $sender->sendMessage("Permission for " . $name . "removed, reclaim is now free.");
                 } else {
                     $rm->setPermission($name, $value);
-                    $sender->sendMessage("Permission for " . $name . " set to " . $value ".");
+                    $sender->sendMessage("Permission for " . $name . " set to " . $value . ".");
                 }
                 return;
             }
